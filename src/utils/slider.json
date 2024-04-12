@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Decoding Victory",
+    "mentor": "Mr. Gurminder Singh",
+    "slogan": "Where every line counts!",
+    "image": "./l1.png"
+  },
+  {
+    "name": "Javascript Titans",
+    "mentor": "Mr. PK Sharma",
+    "slogan": "Dominating the world!",
+    "image": "./l2.png"
+  },
+  {
+    "name": "Python Pacers",
+    "mentor": "Mr. Subhash Chand Gupta",
+    "slogan": "Making code magic happen",
+    "image": "./l3.png"
+  },
+  {
+    "name": "Data Drivers",
+    "mentor": "Mrs. Jyoti Kumar Chandel",
+    "slogan": "From Bugs to Brilliance",
+    "image": "./l4.jpg"
+  },
+  {
+    "name": "Java Jaguars",
+    "mentor": "Mr. Santosh Kumar Agrawal",
+    "slogan": "Code warriors of the byte world",
+    "image": "./l5.jpg"
+  },
+  {
+    "name": "Syntax warriors",
+    "mentor": "Dr. Vivek Gaur",
+    "slogan": "Cating spells of efficiency in every code",
+    "image": "./l6.jpeg"
+  },
+  {
+    "name": "Byte Blasters",
+    "mentor": "Mr. B Pathak",
+    "slogan": "Igniting Code,Sparking victory",
+    "image": "./l7.jpeg"
+  },
+  {
+    "name": "Logic Legends",
+    "mentor": "Mr. Puneet Sharma",
+    "slogan": "Masterminds of the code",
+    "image": "./l8.png"
+  },
+  {
+    "name": "Code Ninjas",
+    "mentor": "Dr. Seema Gaur",
+    "slogan": "Silent Strikers,Flawless code",
+    "image": "./l9.jpg"
+  },
+  {
+    "name": "Data Daredevils",
+    "mentor": "Dr. Anju Sharma",
+    "slogan": "Fearless in face of complex data",
+    "image": "./l10.jpg"
+  },
+  {
+    "name": "Tech Toppers",
+    "mentor": "Mr. Vikas Sangwan",
+    "slogan": "Braving the frontlines of Technology",
+    "image": "./l11.jpeg"
+  }
+]

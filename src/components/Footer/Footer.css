@@ -1,0 +1,27 @@
+.dark-footer {
+  background-color: #222; /* Dark background color */
+  color: #fff; /* Light text color */
+  padding: 50px 0; /* Padding top and bottom */
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.social-media a {
+  display: inline-block;
+  margin: 0 15px;
+  transition: transform 0.3s ease;
+}
+
+.social-media a:hover {
+  transform: translateY(-5px); /* Move the icons up on hover */
+}
+
+.social-media img {
+  width: 40px; /* Adjust the size as needed */
+  height: auto; /* Maintain aspect ratio */
+  /* filter: brightness(0) invert(1); Invert colors to make white icons */
+}

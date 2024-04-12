@@ -1,0 +1,48 @@
+import React from 'react'
+import { Swiper, SwiperSlide, useSwiper } from 'swiper/react'
+import 'swiper/css'
+import './Gallary.css'
+import data from '../../utils/gallary.json'
+import { sliderSettings } from '../../utils/common'
+function Gallary() {
+  return (
+    <div className="r-wrapper" id='gallary'>
+      <div className="paddings innerWidth r-container">
+
+        <div className="r-head flexColStart">
+        <span className='orangeText'>Battle Of Bytes <br/> <hr style={{width:'75%',margin:'auto'}} /> </span>
+          <span className='primaryText'>Some Glimpses from the auction event</span>
+        </div>
+
+        <Swiper {...sliderSettings}>
+          <SliderButtons />
+          {/* slider setting will be destructured as props */}
+          {
+            data.map((it, index) => (
+              <SwiperSlide key={index}>
+                <div className="flexColStart r-card" id={it.name}>
+                  <img src={it.path} alt='home' style={{height:'18rem',width:'20rem'}}></img>
+                </div>
+              </SwiperSlide>
+            ))
+          }
+
+        </Swiper>
+
+      </div>
+    </div>
+  )
+}
+
+export default Gallary
+
+const SliderButtons=()=>{
+  const swiper=useSwiper()
+  //useSwiper hook
+  return(
+    <div className="flexCenter r-btn">
+      <button onClick={()=>swiper.slidePrev()} style={{width:'1.8rem',height:'1.8rem',color:'blue',fontSize:'1.3rem',border:'none',borderRadius:'5px'}}>&lt;</button>
+      <button onClick={()=>swiper.slideNext()} style={{width:'1.8rem',height:'1.8rem',color:'blue',fontSize:'1.3rem',border:'none',borderRadius:'5px'}}>&gt;</button>
+    </div>
+  );
+}

@@ -1,0 +1,98 @@
+.app {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app .header .name {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 50px;
+  color: #303030;
+}
+
+.app .header .logo {
+  width: 100%;
+}
+
+.app .main {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.app .main > div {
+  margin: 0 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.2);
+  width: 322px;
+}
+
+@media (max-width: 768px) {
+  .app .main {
+    flex-direction: column;
+  }
+
+  .app .main > div {
+    margin: 0 0 20px 0;
+  }
+}
+
+
+
+
+.r-wrapper {
+  font-family: Arial, sans-serif;
+}
+
+.r-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.r-head {
+  margin-bottom: 20px;
+}
+
+.orangeText {
+  color: orange;
+}
+
+.primaryText {
+  color: #303030;
+}
+
+.poll-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.poll-option {
+  flex: 0 0 calc(25% - 20px); /* 4 cards in a row with some spacing */
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #f8f8f8;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.poll-option .poll-question {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.poll-option .poll-answer {
+  font-size: 16px;
+}
+
+.total-votes {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 20px;
+  color: #303030;
+}

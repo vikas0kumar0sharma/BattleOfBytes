@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Rajveer Mewara",
+    "path":"./c1.jpg",
+    "position": "Coordinator",
+    "details": ""
+  },
+  { 
+    "name": "Hardik Malik",
+    "path":"./c2.jpg",
+    "position": "Coordinator",
+    "details": ""
+  },
+  {
+    "name": "Abhinav Tadi",
+    "path":"./c3.png",
+    "position": "Coordinator",
+    "details": ""
+  },
+  {
+    "name": "Anushree Agrawaly",
+    "path":"./c4.jpg",
+    "position": "Coordinator",
+    "details": ""
+  },
+  {
+    "name": "Sanchi Malhotra",
+    "path":"./c5.jpg",
+    "position": "Coordinator",
+    "details": ""
+  }
+]
